@@ -1,0 +1,24 @@
+---
+title: "README"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# firstRepo
+
+## R code
+
+```{r simple figure}
+library(tidyverse)
+set.seed(273846)
+
+dat <- data_frame(x = rnorm(100),
+                  y = 2 + 3*x + rnorm(100))
+
+ggplot(dat, aes(x, y)) +
+    geom_point()
+
+```
