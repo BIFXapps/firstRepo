@@ -5,15 +5,18 @@ output: html_document
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
 ```
 
 # firstRepo
 
-Here is a change.
+## Practice with Git
+
+Check out this interactive tutorial and complete the first four levels. Once you have done that, recreate this document.
 
 ## R code
 
-```{r simple figure}
+```{r simple figure, warning=FALSE}
 library(tidyverse)
 set.seed(273846)
 
